@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            margin: auto;
+        }
+
+section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #animal-photos {
+            width: 490px;
+            padding: 10px;
+            background-color: rgb(67, 63, 63);
+			border-radius:10px;
+        }
+
+        .animal-box {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+			margin-top:10px
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+			font-size:22px;
+			font-weight: 100;
+			
+        }
+
+        .animal-box img {
+            width: 150px;
+            border-radius: 12px;
+        }
